@@ -21,6 +21,7 @@
                     <th>Schlagwort</th>
                     <th>Frage</th>
                     <th>Antwort</th>
+                    <th>Kategorie</th>
                 </tr>
             </thead>
 
@@ -31,6 +32,7 @@
                     <td>{{ $faq->schlagwort }}</td>
                     <td>{{ $faq->frage }}</td>
                     <td>{{ $faq->antwort }}</td>
+                    <td>{{ $faq->kategorie->kategorie }}</td>
                 </tr>
                 @endforeach
             </tbody>
