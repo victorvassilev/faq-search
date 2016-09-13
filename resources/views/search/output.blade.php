@@ -4,6 +4,14 @@
 @section('content')
 <div class="container">
     <br /><br />
+    
+     
+ {{ Form::open(array('action' => 'Search\SearchController@output','class'=>'stdform')) }}
+ <input type="text" name="search" placeholder="Enter your search here!" /><br /><br />
+ <button type="submit" class="btn btn-sm btn-success">Search</button>
+ {{ Form::close() }}
+    <br /><br />
+    
     <div class="col-md-12">
         @if (count($faqs) > 0)
         <table class="table table-bordered">
