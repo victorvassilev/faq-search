@@ -2,18 +2,12 @@
 @section('page_title', 'Search Form Page')
 
 @section('content')
+<a href="{{ route('logout') }}">Logout</a><br /><br />
 <div class="container">
     <br /><br />
-    
-     
- {{ Form::open(array('action' => 'Search\SearchController@output','class'=>'stdform')) }}
- <input type="text" name="search" placeholder="Enter your search here!" /><br /><br />
- <button type="submit" class="btn btn-sm btn-success">Search</button>
- {{ Form::close() }}
-    <br /><br />
-    
-    <div class="col-md-12">
-        @if (count($faqs) > 0)
+     <div class="col-md-12">
+       <a href="{{ route('admin/add') }}"<button type="button" class="btn btn-sm btn-success">Add New Faq Entry</button></a>
+   <br /><br />
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -23,9 +17,10 @@
                     <th>Antwort</th>
                     <th>Kategorie</th>
                     <th>Referenz</th>
+                    <th>Action</th>
                 </tr>
             </thead>
-
+ @if (count($faqs) > 0)
             <tbody>
                 @foreach ($faqs as $faq)
                 <tr>
@@ -35,12 +30,17 @@
                     <td>{{ $faq->antwort }}</td>
                     <td>{{ $faq->kategorie->kategorie }}</td>
                     <td>{{ $faq->referenz }}</td>
+                    <td>
+                    <a href="{{route('admin/edit',['id'=>$faq->id]) }}" class="editrow">Edit</a>&nbsp;&nbsp;|
+                    <a href="{{route('admin/delete',['id'=>$faq->id]) }}" class="deleterow">Delete</a>
+                    </td>
                 </tr>
                 @endforeach
             </tbody>
-        </table>
-        @else
+             @else
         No results found! Sorry
         @endif
+        </table>
+       
     </div>
 </div>
