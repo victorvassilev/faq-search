@@ -4,6 +4,11 @@
 @section('content')
 <a href="{{ route('logout') }}">Logout</a><br /><br />
 <div class="container">
+     @if (Session::has('crud'))
+        <div class="alert alert-success">
+            {{ Session::get('crud') }}
+        </div>
+     @endif
     <br /><br />
      <div class="col-md-12">
        <a href="{{ route('admin/add') }}"<button type="button" class="btn btn-sm btn-success">Neuer Eintrag</button></a>
