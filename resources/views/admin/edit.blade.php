@@ -10,7 +10,7 @@
         <input type="text" name="position" value="{{ $faq->position }}"/><br /><br />
         <input type="text" name="schlagwort" value="{{ $faq->schlagwort }}" /><br /><br />
         <input type="text" name="frage" value="{{ $faq->frage }}" /><br /><br />
-        <input type="text" name="antwort" value="{{ $faq->antwort }}" /><br /><br />
+        {{ Form::textarea('antwort', $faq->antwort , array('class' => 'span12 form-control', 'rows' => '10' ))}}<br /><br />
         <input type="text" name="referenz" value="{{ $faq->referenz }}" /><br /><br />
         <select name="kategorie_id" class="uniformselect" tabindex="2">
             @foreach ($categories as $category)
