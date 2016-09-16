@@ -1,4 +1,4 @@
-@extends('layouts.basic')
+@extends('layouts.app')
 @section('page_title', 'Add Faq')
 
 @section('content')
@@ -23,3 +23,4 @@
         {{ Form::close() }}
     </div>
 </div>
+@endsection

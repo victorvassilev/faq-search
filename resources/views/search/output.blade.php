@@ -1,4 +1,4 @@
-@extends('layouts.basic')
+@extends('layouts.app')
 @section('page_title', 'Search Form Page')
 
 @section('content')
@@ -46,3 +46,4 @@
         @endif
     </div>
 </div>
+@endsection
