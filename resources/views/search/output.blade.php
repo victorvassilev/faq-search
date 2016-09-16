@@ -42,7 +42,7 @@
             </tbody>
         </table>
         @else
-        No results found! Sorry
+        Bitte ein Suchwort eintragen.
         @endif
     </div>
 </div>
