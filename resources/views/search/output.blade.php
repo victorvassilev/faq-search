@@ -18,6 +18,7 @@
             <thead>
                 <tr>
                     <th>#</th>
+                    <th>Codes</th>
                     <th>Schlagwort</th>
                     <th>Frage</th>
                     <th>Antwort</th>
@@ -30,6 +31,7 @@
                 @foreach ($faqs as $faq)
                 <tr>
                     <td>{{ $faq->id }}</td>
+                    <td>{{ $faq->codes }}</td>
                     <td>{{ $faq->schlagwort }}</td>
                     <td>{{ $faq->frage }}</td>
                     <td>{{ $faq->antwort }}</td>

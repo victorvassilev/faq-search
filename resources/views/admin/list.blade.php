@@ -1,5 +1,5 @@
 @extends('layouts.basic')
-@section('page_title', 'Search Form Page')
+@section('page_title', 'Administration FAQ')
 
 @section('content')
 <a href="{{ route('logout') }}">Logout</a><br /><br />
@@ -17,6 +17,7 @@
             <thead>
                 <tr>
                     <th>Kategorie</th>
+                    <th>Codes</th>
                     <th>Schlagwort</th>
                     <th>#</th>
                     <th>Frage</th>
@@ -30,6 +31,7 @@
                 @foreach ($faqs as $faq)
                 <tr>
                     <td>{{ $faq->kategorie->kz }}</td>
+                    <td>{{ $faq->codes }}</td>
                     <td>{{ $faq->schlagwort }}</td>
                     <td>{{ $faq->id }}</td>
                     <td>{{ $faq->frage }}</td>

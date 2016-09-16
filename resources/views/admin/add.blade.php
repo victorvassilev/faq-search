@@ -8,6 +8,7 @@
     <div class="widgetcontent">
         {{ Form::open(array('action' => 'AdminController@update','class'=>'stdform')) }}
         <input type="text" name="position" placeholder="Position" /><br /><br />
+        <input type="text" name="codes" placeholder="Codes" /><br /><br />
         <input type="text" name="schlagwort" placeholder="Schlagwort" /><br /><br />
         <input type="text" name="frage" placeholder="Frage" /><br /><br />
         {{ Form::textarea('antwort', null , array('class' => 'span12 form-control', 'placeholder' => 'Antwort', 'rows' => '10' ))}}<br /><br />
