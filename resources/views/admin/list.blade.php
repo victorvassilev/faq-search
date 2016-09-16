@@ -1,8 +1,7 @@
-@extends('layouts.basic')
+@extends('layouts.app')
 @section('page_title', 'Administration FAQ')
 
 @section('content')
-<a href="{{ route('logout') }}">Logout</a><br /><br />
 <div class="container">
      @if (Session::has('crud'))
         <div class="alert alert-success">

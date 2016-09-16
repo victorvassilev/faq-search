@@ -1,18 +1,19 @@
 @extends('layouts.app')
-@section('page_title', 'Search Form Page')
+@section('page_title', 'LBR FAQ')
+
+
+ @section('search')
+ {{ Form::open(array('action' => 'Search\SearchController@output','class'=>'stdform', 'style'=>"padding-top: 11px;")) }}
+ <input type="text" name="search" placeholder="Suchwort" />
+ <button type="submit" class="btn btn-sm btn-success">FAQ durchsuchen</button>
+ {{ Form::close() }}
+@endsection
 
 @section('content')
-<div class="container">
-    <br /><br />
-    
-     
- {{ Form::open(array('action' => 'Search\SearchController@output','class'=>'stdform')) }}
- <input type="text" name="search" placeholder="Enter your search here!" /><br /><br />
- <button type="submit" class="btn btn-sm btn-success">Search</button>
- {{ Form::close() }}
-    <br /><br />
-    
-    <div class="col-md-12">
+    <div class="container">
+        <br />
+
+        <div class="col-md-12">
         @if (count($faqs) > 0)
         <table class="table table-bordered">
             <thead>
