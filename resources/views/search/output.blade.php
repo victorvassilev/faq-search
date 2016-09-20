@@ -43,7 +43,11 @@
             </tbody>
         </table>
         @else
-        Bitte ein Suchwort eintragen.
+                @if ($search)
+                        Zum Suchbegriff {{$search}} wurde nichts gefunden.
+                    @else
+                        Bitte ein Suchwort eintragen.
+                    @endif
         @endif
     </div>
 </div>

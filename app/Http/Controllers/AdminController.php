@@ -57,12 +57,12 @@ class AdminController extends Controller
              ]);
             $input = $request->all();
             Faq::create($input);
-            $message = 'Faq Added Successfully!';
+            $message = 'Eintrag gespeichert.';
         }
         else {
         $faq = Faq::findOrFail($id);
         $faq->fill($input)->save();
-        $message = 'Faq Modified Successfully!';
+        $message = 'Eintrag gespeichert.';
         }
         Session::flash($type, $message);
         return redirect()->action('AdminController@index');
@@ -84,7 +84,7 @@ class AdminController extends Controller
     {
         $faq = Faq::findOrFail($id);
         $faq->delete();
-        Session::flash('crud', 'FAQ Removed Successfully!');
+        Session::flash('crud', 'Eintrag gelöscht.');
         return redirect()->action('AdminController@index');
     }
     

@@ -31,7 +31,7 @@ class SearchController extends Controller
         if ($search){
             $faqs = Faq::search('%'.$search, null, true)->with('kategorie')->orderBy('position')->get();
         }
-        return view('search/output',compact('faqs'));
+        return view('search/output',compact('faqs'),compact('search'));
     }
 
 }
