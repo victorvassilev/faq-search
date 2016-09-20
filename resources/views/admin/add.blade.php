@@ -14,11 +14,11 @@
         <input type="text" name="referenz" placeholder="Referenz" /><br /><br />
         <select name="kategorie_id" class="uniformselect" tabindex="2">
             @foreach ($categories as $category)
-            <option value="{{ $category->id }}">{{ $category->kategorie }}</option>
+            <option value="{{ $category->id }}">{{ $category->kz }} - {{ $category->kategorie }}</option>
             @endforeach
         </select>
           <br /><br />
-        <button class="btn btn-primary" type="submit">Add FAQ</button>
+        <button class="btn btn-primary" type="submit">FAQ hinzufügen</button>
         <a class="btn btn-link" href="{{ url('/admin/faq') }}">
             Abbrechen
         </a>

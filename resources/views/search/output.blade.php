@@ -18,12 +18,12 @@
         <table class="table table-bordered">
             <thead>
                 <tr>
+                    <th>Kat</th>
                     <th>#</th>
                     <th>Codes</th>
                     <th>Schlagwort</th>
                     <th>Frage</th>
                     <th>Antwort</th>
-                    <th>Kategorie</th>
                     <th>Referenz</th>
                 </tr>
             </thead>
@@ -31,12 +31,12 @@
             <tbody>
                 @foreach ($faqs as $faq)
                 <tr>
-                    <td>{{ $faq->id }}</td>
+                    <td>{{ $faq->kategorie->kz }}</td>
+                    <td>{{ $faq->position }}</td>
                     <td>{{ $faq->codes }}</td>
                     <td>{{ $faq->schlagwort }}</td>
                     <td>{{ $faq->frage }}</td>
                     <td>{{ $faq->antwort }}</td>
-                    <td>{{ $faq->kategorie->kategorie }}</td>
                     <td>{{ $faq->referenz }}</td>
                 </tr>
                 @endforeach
