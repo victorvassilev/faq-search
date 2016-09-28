@@ -18,7 +18,7 @@
                     <th>Kategorie</th>
                     <th>Codes</th>
                     <th>Schlagwort</th>
-                    <th>#</th>
+                    <th>Nr</th>
                     <th>Frage</th>
                     <th>Antwort</th>
                     <th>Referenz</th>
@@ -32,7 +32,7 @@
                     <td>{{ $faq->kategorie->kz }}</td>
                     <td>{{ $faq->codes }}</td>
                     <td>{{ $faq->schlagwort }}</td>
-                    <td>{{ $faq->id }}</td>
+                    <td>{{ $faq->position }}</td>
                     <td>{{ $faq->frage }}</td>
                     <td>{{ $faq->antwort }}</td>
                     <td>{{ $faq->referenz }}</td>

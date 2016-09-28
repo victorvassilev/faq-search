@@ -29,7 +29,7 @@ class SearchController extends Controller
         $faqs = [];
         $search = $request->input('search');
         if ($search){
-            $faqs = Faq::search('%'.$search, null, true)->with('kategorie')->orderBy('position')->get();
+            $faqs = Faq::search('%'.$search, null, true)->with('kategorie')->orderBy('kategorie_id')->orderBy('position')->get();
         }
         return view('search/output',compact('faqs'),compact('search'));
     }

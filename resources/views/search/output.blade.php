@@ -19,7 +19,7 @@
             <thead>
                 <tr>
                     <th>Kat</th>
-                    <th>#</th>
+                    <th>Nr</th>
                     <th>Codes</th>
                     <th>Schlagwort</th>
                     <th>Frage</th>
