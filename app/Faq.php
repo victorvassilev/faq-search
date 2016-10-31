@@ -30,6 +30,7 @@ class Faq extends Model
      */
     protected $searchable = [
         'columns' => [
+            'faq.codes' => 10,
             'faq.schlagwort' => 10,
             'faq.frage' => 8,
             'faq.antwort' => 10,
