@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Faq;
+use App\Kategorie;
 
 class SearchController extends Controller
 {
@@ -27,11 +28,13 @@ class SearchController extends Controller
     public function output(Request $request)
     {
         $faqs = [];
+        $kategorien = [];
         $search = $request->input('search');
         if ($search){
             $faqs = Faq::search('%'.$search, null, true)->with('kategorie')->orderBy('kategorie_id')->orderBy('position')->get();
         }
-        return view('search/output',compact('faqs'),compact('search'));
+	$kategorien = Kategorie::orderBy('kz')->get();
+        return view('search/output',compact('faqs', 'kategorien'),compact('search'));
     }
 
 }

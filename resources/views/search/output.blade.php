@@ -31,7 +31,7 @@
             <tbody>
                 @foreach ($faqs as $faq)
                 <tr>
-                    <td>{{ $faq->kategorie->kz }}</td>
+                    <td title="{{ $faq->kategorie->kategorie }}"> {{ $faq->kategorie->kz }}</td>
                     <td>{{ $faq->position }}</td>
                     <td>{{ $faq->codes }}</td>
                     <td>{{ $faq->schlagwort }}</td>
@@ -42,6 +42,12 @@
                 @endforeach
             </tbody>
         </table>
+	Legende:
+	
+	@foreach ($kategorien as $k)
+            {{ $k->kz }} - {{ $k->kategorie }} 
+        @endforeach
+        
         @else
                 @if ($search)
                         Zum Suchbegriff {{$search}} wurde nichts gefunden.
