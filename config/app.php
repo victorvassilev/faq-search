@@ -156,7 +156,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Witty\LaravelTableView\LaravelTableViewServiceProvider::class,
+        KABBOUCHI\TableView\TableViewServiceProvider::class,
         //Laravel FORM
         'Collective\Html\HtmlServiceProvider',
     ],

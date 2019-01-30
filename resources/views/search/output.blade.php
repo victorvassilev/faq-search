@@ -52,7 +52,10 @@
                 @if ($search)
                         Zum Suchbegriff {{$search}} wurde nichts gefunden.
                     @else
-                        Bitte ein Suchwort eintragen.
+			<h4>Suchfunktion</h4> Sie können sowohl nach Codes als auch nach Suchbegriffen suchen. Geben Sie dafür einfach den Code oder den Begriff in das Suchfeld ein und bestätigen Sie mit ‚Enter‘ oder ‚FAQ Durchsuchen‘.
+      			<h4>Anzeigen aller FAQ</h4> Bitte geben Sie im Suchfeld das Prozentzeichen % ein.
+     			<h4>Logout</h4> Ein Logout ist nicht notwendig, da der Zugang auf einer einfachen Autorisierungsroutine basiert.
+ 
                     @endif
         @endif
     </div>
