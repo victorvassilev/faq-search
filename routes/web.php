@@ -11,15 +11,8 @@
   |
  */
 
-Route::get('/', ['as' => 'default-route', function (Request $request) {
+Route::get('/', ['as' => 'default-route', 'uses' => 'Search\SearchController@output']);
 
-        $return = redirect()->route('suche');
-
-        return $return;
-    }]
-);
-
-Route::get('index/search', ['as' => 'index/search', 'uses' => 'Search\SearchController@index']);
 Route::any('suche', ['as' => 'suche', 'uses' => 'Search\SearchController@output']);
 
 Auth::routes();
