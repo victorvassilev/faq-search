@@ -1,5 +1,8 @@
 language: php
 
+php:
+  - 7.3.2
+
 addons:
   mariadb: '10.1'
 
