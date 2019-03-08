@@ -1,0 +1,19 @@
+language: php
+
+php:
+  - 7.3.2
+
+addons:
+  mariadb: '10.1'
+
+before_script:
+  - cp .env.travis .env
+  - mysql -e 'create database faq;'
+  - composer self-update
+  - composer install --no-interaction
+  - php artisan key:generate
+  - php artisan migrate --step
+
+script:
+  - vendor/bin/phpunit
+
