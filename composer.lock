@@ -3116,12 +3116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-ide-helper.git",
-                "reference": "9ef14f83be22adf950f92a2ddb705d6331475d1c"
+                "reference": "87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/9ef14f83be22adf950f92a2ddb705d6331475d1c",
-                "reference": "9ef14f83be22adf950f92a2ddb705d6331475d1c",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe",
+                "reference": "87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe",
                 "shasum": ""
             },
             "require": {
@@ -3182,7 +3182,7 @@
                 "phpstorm",
                 "sublime"
             ],
-            "time": "2019-03-27T04:56:31+00:00"
+            "time": "2019-04-17T20:07:56+00:00"
         },
         {
             "name": "barryvdh/reflection-docblock",
@@ -5081,7 +5081,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v4.2.5",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
