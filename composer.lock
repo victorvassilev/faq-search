@@ -344,12 +344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KABBOUCHI/laravel-table-view.git",
-                "reference": "7dc66e7428f2f6dda2905e0502b098f2f447bcaf"
+                "reference": "a1c4d1bf189bd7561ebfdf98f7eeff9722cc6562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KABBOUCHI/laravel-table-view/zipball/7dc66e7428f2f6dda2905e0502b098f2f447bcaf",
-                "reference": "7dc66e7428f2f6dda2905e0502b098f2f447bcaf",
+                "url": "https://api.github.com/repos/KABBOUCHI/laravel-table-view/zipball/a1c4d1bf189bd7561ebfdf98f7eeff9722cc6562",
+                "reference": "a1c4d1bf189bd7561ebfdf98f7eeff9722cc6562",
                 "shasum": ""
             },
             "require": {
@@ -393,7 +393,7 @@
                 "table-view",
                 "view"
             ],
-            "time": "2018-12-03T08:12:20+00:00"
+            "time": "2019-04-28T10:27:42+00:00"
         },
         {
             "name": "laravel/framework",
@@ -1872,7 +1872,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -4598,7 +4598,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v4.2.7",
+            "version": "v4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
