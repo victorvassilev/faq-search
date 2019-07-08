@@ -344,12 +344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KABBOUCHI/laravel-table-view.git",
-                "reference": "7dc66e7428f2f6dda2905e0502b098f2f447bcaf"
+                "reference": "0267c79f50c5793246334951e1b40822cba2295f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KABBOUCHI/laravel-table-view/zipball/7dc66e7428f2f6dda2905e0502b098f2f447bcaf",
-                "reference": "7dc66e7428f2f6dda2905e0502b098f2f447bcaf",
+                "url": "https://api.github.com/repos/KABBOUCHI/laravel-table-view/zipball/0267c79f50c5793246334951e1b40822cba2295f",
+                "reference": "0267c79f50c5793246334951e1b40822cba2295f",
                 "shasum": ""
             },
             "require": {
@@ -393,7 +393,7 @@
                 "table-view",
                 "view"
             ],
-            "time": "2018-12-03T08:12:20+00:00"
+            "time": "2019-05-13T13:01:32+00:00"
         },
         {
             "name": "laravel/framework",
@@ -834,16 +834,16 @@
         },
         {
             "name": "nicolaslopezj/searchable",
-            "version": "1.10.4",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolaslopezj/searchable.git",
-                "reference": "69dfeb12ae283067288e4bc412235b1f3f13dcf4"
+                "reference": "4f28c6aebf61f41b63825b87b5de1d34034680e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolaslopezj/searchable/zipball/69dfeb12ae283067288e4bc412235b1f3f13dcf4",
-                "reference": "69dfeb12ae283067288e4bc412235b1f3f13dcf4",
+                "url": "https://api.github.com/repos/nicolaslopezj/searchable/zipball/4f28c6aebf61f41b63825b87b5de1d34034680e1",
+                "reference": "4f28c6aebf61f41b63825b87b5de1d34034680e1",
                 "shasum": ""
             },
             "require": {
@@ -876,7 +876,7 @@
                 "search",
                 "searchable"
             ],
-            "time": "2018-11-05T20:28:35+00:00"
+            "time": "2019-06-06T15:35:54+00:00"
         },
         {
             "name": "opis/closure",
@@ -1872,7 +1872,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -2571,12 +2571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-ide-helper.git",
-                "reference": "87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe"
+                "reference": "c9132b28a6fab5e76207ac653e842f584eb3759d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe",
-                "reference": "87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/c9132b28a6fab5e76207ac653e842f584eb3759d",
+                "reference": "c9132b28a6fab5e76207ac653e842f584eb3759d",
                 "shasum": ""
             },
             "require": {
@@ -2637,7 +2637,7 @@
                 "phpstorm",
                 "sublime"
             ],
-            "time": "2019-04-17T20:07:56+00:00"
+            "time": "2019-06-18T14:38:42+00:00"
         },
         {
             "name": "barryvdh/reflection-docblock",
