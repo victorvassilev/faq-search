@@ -286,24 +286,24 @@
         },
         {
             "name": "fideloper/proxy",
-            "version": "4.1.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fideloper/TrustedProxy.git",
-                "reference": "177c79a2d1f9970f89ee2fb4c12b429af38b6dfb"
+                "reference": "39a4c2165e578bc771f5dc031c273210a3a9b6d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/177c79a2d1f9970f89ee2fb4c12b429af38b6dfb",
-                "reference": "177c79a2d1f9970f89ee2fb4c12b429af38b6dfb",
+                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/39a4c2165e578bc771f5dc031c273210a3a9b6d2",
+                "reference": "39a4c2165e578bc771f5dc031c273210a3a9b6d2",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "~5.0",
+                "illuminate/contracts": "~5.0|~6.0",
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "illuminate/http": "~5.6",
+                "illuminate/http": "~5.6|~6.0",
                 "mockery/mockery": "~1.0",
                 "phpunit/phpunit": "^6.0"
             },
@@ -336,7 +336,7 @@
                 "proxy",
                 "trusted proxy"
             ],
-            "time": "2019-01-10T14:06:47+00:00"
+            "time": "2019-07-29T16:49:45+00:00"
         },
         {
             "name": "kabbouchi/laravel-table-view",
@@ -344,12 +344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KABBOUCHI/laravel-table-view.git",
-                "reference": "7dc66e7428f2f6dda2905e0502b098f2f447bcaf"
+                "reference": "0267c79f50c5793246334951e1b40822cba2295f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KABBOUCHI/laravel-table-view/zipball/7dc66e7428f2f6dda2905e0502b098f2f447bcaf",
-                "reference": "7dc66e7428f2f6dda2905e0502b098f2f447bcaf",
+                "url": "https://api.github.com/repos/KABBOUCHI/laravel-table-view/zipball/0267c79f50c5793246334951e1b40822cba2295f",
+                "reference": "0267c79f50c5793246334951e1b40822cba2295f",
                 "shasum": ""
             },
             "require": {
@@ -393,7 +393,7 @@
                 "table-view",
                 "view"
             ],
-            "time": "2018-12-03T08:12:20+00:00"
+            "time": "2019-05-13T13:01:32+00:00"
         },
         {
             "name": "laravel/framework",
@@ -1872,7 +1872,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -2571,12 +2571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-ide-helper.git",
-                "reference": "87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe"
+                "reference": "c9132b28a6fab5e76207ac653e842f584eb3759d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe",
-                "reference": "87ebe458e9b5787e6b65b9c4b62df9c2b13be7fe",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/c9132b28a6fab5e76207ac653e842f584eb3759d",
+                "reference": "c9132b28a6fab5e76207ac653e842f584eb3759d",
                 "shasum": ""
             },
             "require": {
@@ -2637,7 +2637,7 @@
                 "phpstorm",
                 "sublime"
             ],
-            "time": "2019-04-17T20:07:56+00:00"
+            "time": "2019-06-18T14:38:42+00:00"
         },
         {
             "name": "barryvdh/reflection-docblock",
@@ -3649,8 +3649,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sb@sebastian-bergmann.de"
                 }
             ],
             "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -3917,8 +3917,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
