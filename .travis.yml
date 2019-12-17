@@ -11,7 +11,7 @@ before_script:
   - sudo mysql -e 'create database faq;'
   - composer install --no-interaction
   - php artisan key:generate
-  - sudo php artisan migrate --step
+  - php artisan migrate --no-interaction -vvv
 
 script:
   - vendor/bin/phpunit
