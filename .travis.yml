@@ -3,15 +3,12 @@ language: php
 php:
   - 7.3.2
 
-services:
-  - mysql
-
 addons:
   mariadb: '10.4'
 
 before_script:
   - cp .env.travis .env
-  - mysql -e 'create database faq;'
+  - sudo mysql -e 'create database faq;'
   - composer install --no-interaction
   - php artisan key:generate
   - php artisan migrate --step
