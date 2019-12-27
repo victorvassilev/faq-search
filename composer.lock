@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d3f0fc39bac24fb763f6a0c1526375a",
+    "content-hash": "2f8cf30e1469a2765efcf03779b82fa8",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2903,12 +2903,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-ide-helper.git",
-                "reference": "fcf3fae860734d39e11cae2a23b6d2d92f9dd143"
+                "reference": "027e58fd568a46b339452b78557e6f3c56744e48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/fcf3fae860734d39e11cae2a23b6d2d92f9dd143",
-                "reference": "fcf3fae860734d39e11cae2a23b6d2d92f9dd143",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/027e58fd568a46b339452b78557e6f3c56744e48",
+                "reference": "027e58fd568a46b339452b78557e6f3c56744e48",
                 "shasum": ""
             },
             "require": {
@@ -2966,7 +2966,7 @@
                 "phpstorm",
                 "sublime"
             ],
-            "time": "2019-12-09T19:28:07+00:00"
+            "time": "2019-12-25T14:16:51+00:00"
         },
         {
             "name": "barryvdh/reflection-docblock",
@@ -3852,16 +3852,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.2.4",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "b3453f75fd23d9fd41685f2148f4abeacabc6405"
+                "reference": "f69bbde7d7a75d6b2862d9ca8fab1cd28014b4be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/b3453f75fd23d9fd41685f2148f4abeacabc6405",
-                "reference": "b3453f75fd23d9fd41685f2148f4abeacabc6405",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/f69bbde7d7a75d6b2862d9ca8fab1cd28014b4be",
+                "reference": "f69bbde7d7a75d6b2862d9ca8fab1cd28014b4be",
                 "shasum": ""
             },
             "require": {
@@ -3875,7 +3875,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -3913,7 +3913,7 @@
                 "test double",
                 "testing"
             ],
-            "time": "2019-09-30T08:30:27+00:00"
+            "time": "2019-12-26T09:49:15+00:00"
         },
         {
             "name": "myclabs/deep-copy",
